@@ -1,0 +1,12 @@
+<view class="container">
+<view><image src="../../images/nyuh.png"></image></view>
+<view style="margin-top:160px" wx:if="{{!login}}">
+<button open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo" type="primary">校友卡</button>
+<button style="background-color:green" type="primary" bindtap="unlogin">学籍信息</button>
+<button style="background-color:blue" type="primary" bindtap="testpage">个人信息</button>
+<button style="background-color:orange" type="primary" bindtap="testpage">校庆报到</button>
+<button style="background-color:red" type="primary" bindtap="testpage">系统帮助</button>
+</view>
+</view>
+<view class="bottom">
+</view>

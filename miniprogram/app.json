@@ -1,0 +1,54 @@
+{
+  "pages": [
+    "pages/cover/cover",
+    "pages/testpage/index",
+    "pages/index/index",
+    "pages/uploadMood/uploadMood",
+    "pages/moodDetail/moodDetail",
+
+    "pages/secret/secret",
+    "pages/uploadSecret/uploadSecret",
+    "pages/secretDetail/secretDetail",
+    
+    "pages/inform/inform",
+    "pages/userCard/userCard",
+    "pages/sendMessage/sendMessage",
+    "pages/home/home",
+    "pages/setInfo/setInfo",
+    "pages/historyHead/historyHead",
+    "pages/myMessage/myMessage",
+    "pages/myMood/myMood",
+    "pages/mySecret/mySecret",
+    "pages/myFavorite/myFavorite",
+    "pages/feedBack/feedBack",
+    "pages/handleInform/handleInform"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#8ad7f3",
+    "navigationBarTitleText": "NYU校友会",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index", 
+      "pagePath": "pages/testpage/index",
+      "text": "心情广场",
+      "iconPath": "images/mood.png",
+      "selectedIconPath": "images/mood_sel.png"
+    },{
+      "pagePath": "pages/secret/secret",
+      "text": "匿名说",
+      "iconPath": "images/secret.png",
+      "selectedIconPath": "images/secret_sel.png"
+    },{
+      "pagePath": "pages/home/home",
+      "text": "个人中心",
+      "iconPath": "images/home.png",
+      "selectedIconPath": "images/home_sel.png"
+    }]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

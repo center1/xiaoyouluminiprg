@@ -1,0 +1,11 @@
+<view class="container">
+<view><image src="../../images/nyuh.png"></image></view>
+<view style="margin-top:240px" wx:if="{{!login}}">
+
+<button open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo" type="primary">授权登录</button>
+<button style="background-color:yellowgreen" type="primary" bindtap="unlogin">暂不登录</button>
+<button style="background-color:blue" type="primary" bindtap="testpage">测试主页</button>
+</view>
+</view>
+<view class="bottom">
+</view>

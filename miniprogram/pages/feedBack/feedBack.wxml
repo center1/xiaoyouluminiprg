@@ -1,0 +1,13 @@
+<view style="margin:10px 0px 0px 5px">
+<view>
+<view style="font-weight: bold">开发：</view>
+<view style="margin-left:2em">Steven</view>
+<view style="margin-left:2em">(2020年7月)</view>
+</view>
+<view style="margin:5px 0px"></view>
+<view>
+<view style="font-weight: bold">反馈意见方式：</view>
+<view style="margin-left:2em">QQ：</view>
+<view style="margin-left:2em">微信/电话：</view>
+</view>
+</view>
